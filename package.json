@@ -1,0 +1,26 @@
+{
+  "name": "turtlemempool",
+  "version": "0.0.1",
+  "description": "TurtleCoin mempool statistics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExtraHash/TurtleMempool.git"
+  },
+  "author": "ExtraHash",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ExtraHash/TurtleMempool/issues"
+  },
+  "homepage": "https://github.com/ExtraHash/TurtleMempool#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "quick.db": "^7.0.0-b22",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "turtlecoin-rpc": "^0.12.4"
+  }
+}
